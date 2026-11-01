@@ -1,0 +1,566 @@
+{
+  "@@locale": "en",
+  "appName": "Desk Workout",
+  "languageNativeName": "English",
+  "appTagline": "Move better at your desk",
+  "splashTagline": "Stretch · Breathe · Focus",
+  "navToday": "Today",
+  "navExercises": "Exercises",
+  "navEyes": "Eyes",
+  "navNutrition": "Nutrition",
+  "navProgress": "Progress",
+  "onbSkip": "Skip",
+  "onbNext": "Next",
+  "onbStart": "Let’s start",
+  "onb1Title": "Your desk,\nyour gym",
+  "onb1Body": "Short, science-backed routines designed only for people who sit at a desk all day.",
+  "onb2Title": "Fix the\nscreen posture",
+  "onb2Body": "Neck, shoulders, wrists and back: every move is animated step by step so you do it right.",
+  "onb3Title": "Rest your\neyes",
+  "onb3Body": "The 20-20-20 rule, blinking and focus drills protect your eyes from digital strain.",
+  "onb4Title": "Fuel the\nworkday",
+  "onb4Body": "Track water, keep caffeine in check and pick smart desk snacks.",
+  "onbSetupTitle": "Make it yours",
+  "onbSetupBody": "You can change these anytime in settings.",
+  "onbGoalLabel": "Daily movement goal",
+  "onbBreakLabel": "Remind me to move",
+  "minutesShort": "{count} min",
+  "@minutesShort": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "everyMinutes": "Every {count} min",
+  "@everyMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "greetingMorning": "Good morning",
+  "greetingAfternoon": "Good afternoon",
+  "greetingEvening": "Good evening",
+  "homeSubtitle": "Ready for a quick reset?",
+  "todayGoal": "Today’s goal",
+  "minutesOfGoal": "{done} of {goal} min",
+  "@minutesOfGoal": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "goalReached": "Goal reached! 🎉",
+  "streakDays": "{count, plural, =0{No streak yet} =1{1 day streak} other{{count} day streak}}",
+  "@streakDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "sittingFor": "Sitting for {time}",
+  "@sittingFor": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "timeToMove": "Time to move! Take a 2-minute break.",
+  "sittingOk": "Next break suggested in {time}",
+  "@sittingOk": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "tookBreak": "I took a break",
+  "quickBreak": "2-minute reset",
+  "quickBreakDesc": "Neck, shoulders, wrists and back in one quick flow.",
+  "startNow": "Start now",
+  "programs": "Programs",
+  "programsSubtitle": "Guided routines for every desk problem",
+  "seeAll": "See all",
+  "tipOfDay": "Tip of the day",
+  "waterToday": "Water today",
+  "glassesCount": "{count, plural, =1{1 glass} other{{count} glasses}}",
+  "@glassesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "glassesOfGoal": "{count} / {goal} glasses",
+  "@glassesOfGoal": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "bodyAreasTitle": "Target an area",
+  "hoursMinutes": "{h} h {m} min",
+  "@hoursMinutes": {
+    "placeholders": {
+      "h": {
+        "type": "int"
+      },
+      "m": {
+        "type": "int"
+      }
+    }
+  },
+  "libraryTitle": "Exercise library",
+  "librarySubtitle": "Every movement verified against medical sources",
+  "filterAll": "All",
+  "exercisesCount": "{count, plural, =1{1 exercise} other{{count} exercises}}",
+  "@exercisesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "secondsShort": "{count} s",
+  "@secondsShort": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "howTo": "How to do it",
+  "proTip": "Pro tip",
+  "targetAreas": "Target areas",
+  "startExercise": "Start exercise",
+  "sourceLabel": "Source",
+  "standingLabel": "Standing",
+  "seatedLabel": "Seated",
+  "safetyNote": "Move gently and stay pain-free. Stop if anything hurts and talk to a health professional if pain persists.",
+  "routineStart": "Start program",
+  "routineIncludes": "What’s inside",
+  "areaNeck": "Neck",
+  "areaShoulders": "Shoulders",
+  "areaUpperBack": "Upper back",
+  "areaChest": "Chest",
+  "areaArms": "Arms",
+  "areaWrists": "Wrists",
+  "areaLowerBack": "Lower back",
+  "areaCore": "Core",
+  "areaHips": "Hips",
+  "areaHamstrings": "Hamstrings",
+  "areaQuads": "Thighs",
+  "areaCalves": "Calves",
+  "areaAnkles": "Ankles",
+  "areaEyes": "Eyes",
+  "areaLungs": "Breathing",
+  "getReady": "Get ready",
+  "upNext": "Up next",
+  "restLabel": "Rest",
+  "pausedLabel": "Paused",
+  "exerciseOf": "Exercise {current} of {total}",
+  "@exerciseOf": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "workoutComplete": "Workout complete!",
+  "completeBody": "Your body thanks you. Small breaks add up to big changes.",
+  "minutesLabel": "Minutes",
+  "exercisesLabel": "Exercises",
+  "streakLabel": "Streak",
+  "backHome": "Done",
+  "doAgain": "Do it again",
+  "exitTitle": "End workout?",
+  "exitBody": "Your progress for this session won’t be saved.",
+  "exitConfirm": "End",
+  "keepGoing": "Keep going",
+  "stepsLabel": "Steps",
+  "cueInhale": "Breathe in",
+  "cueHold": "Hold",
+  "cueExhale": "Breathe out",
+  "cueRelax": "Relax",
+  "cueLeftSide": "Left side",
+  "cueRightSide": "Right side",
+  "cueLook": "Focus",
+  "cueBlink": "Close your eyes",
+  "eyeTitle": "Eye & posture care",
+  "eyeSubtitle": "Protect your eyes and set up your desk right",
+  "rule20Title": "20-20-20 timer",
+  "rule20Body": "Every 20 minutes, look 6 m (20 ft) away for 20 seconds.",
+  "startTimer": "Start timer",
+  "stopTimer": "Stop",
+  "nextEyeBreakIn": "Next eye break in",
+  "eyeBreakNow": "Eye break! Look far away",
+  "eyeBreakDone": "Great, eyes refreshed!",
+  "keepAppOpen": "Keep the app open while the timer runs.",
+  "eyeExercises": "Eye exercises",
+  "ergoTitle": "Ergonomic desk setup",
+  "ergoSubtitle": "Small adjustments, less strain all day",
+  "ergoMonitorDistance": "Screen 50–100 cm away – about an arm’s length",
+  "ergoMonitorHeight": "Top of the screen at or slightly below eye level",
+  "ergoElbows": "Elbows close to the body, bent 90–120°",
+  "ergoWrists": "Wrists straight, roughly parallel to the floor",
+  "ergoBack": "Back fully supported with lumbar support",
+  "ergoFeet": "Feet flat on the floor, knees about hip height",
+  "blinkFactTitle": "Did you know?",
+  "blinkFactBody": "We normally blink about 15 times a minute, but at a screen this drops by about half. That’s why screen eyes feel dry.",
+  "eyeDisclaimer": "Eye exercises are comfort routines, not medical treatment. See an eye doctor if symptoms persist.",
+  "nutritionTitle": "Desk nutrition",
+  "nutritionSubtitle": "Steady energy without the afternoon crash",
+  "waterTitle": "Hydration",
+  "waterBody": "EFSA advises about 2.0 L (women) to 2.5 L (men) of water a day from all drinks and food.",
+  "glassSize": "1 glass = 250 ml",
+  "waterGoalLabel": "Daily goal",
+  "caffeineTitle": "Caffeine check",
+  "caffeineBody": "Up to 400 mg a day is considered safe for most healthy adults (FDA, EFSA) – roughly 4 cups of filter coffee. Keep single doses to about 200 mg.",
+  "caffeineTip": "Avoid caffeine late in the day to protect your sleep.",
+  "snacksTitle": "Smart desk snacks",
+  "snacksSubtitle": "Protein + fibre keep you full and focused",
+  "snackNuts": "Unsalted nuts",
+  "snackNutsDesc": "A small handful – healthy fats and protein.",
+  "snackFruit": "Whole fruit",
+  "snackFruitDesc": "An apple or pear brings fibre and natural sweetness.",
+  "snackYogurt": "Greek yogurt & berries",
+  "snackYogurtDesc": "Plain yogurt with berries for protein and antioxidants.",
+  "snackVeggies": "Veggies & hummus",
+  "snackVeggiesDesc": "Carrot or cucumber sticks with hummus.",
+  "snackEggs": "Boiled eggs",
+  "snackEggsDesc": "Easy to prepare, high-quality protein.",
+  "snackChickpeas": "Roasted chickpeas",
+  "snackChickpeasDesc": "Crunchy fibre and plant protein.",
+  "habitsTitle": "Healthy work habits",
+  "habit1Title": "Drink water first",
+  "habit1Body": "Feeling peckish? Thirst is often mistaken for hunger.",
+  "habit2Title": "Eat away from the desk",
+  "habit2Body": "Step away from emails and eat mindfully – it’s also a movement break.",
+  "habit3Title": "Pre-portion snacks",
+  "habit3Body": "Pack small portions ahead so you don’t eat straight from the bag.",
+  "habit4Title": "Skip sugary drinks",
+  "habit4Body": "Choose water, tea or coffee; keep juice to one small glass a day.",
+  "habit5Title": "Protein + fibre",
+  "habit5Body": "Combining them keeps blood sugar steady and focus sharp.",
+  "habit6Title": "Watch the bars",
+  "habit6Body": "Many “protein” bars are packed with sugar – read the label.",
+  "progressTitle": "Your progress",
+  "progressSubtitle": "Consistency beats intensity",
+  "statStreak": "Current streak",
+  "statBest": "Best streak",
+  "statMinutes": "Active minutes",
+  "statSessions": "Sessions",
+  "daysCount": "{count, plural, =1{1 day} other{{count} days}}",
+  "@daysCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "thisWeek": "This week",
+  "weekMinutes": "{count} min this week",
+  "@weekMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "achievements": "Achievements",
+  "badgeFirst": "First step",
+  "badgeFirstDesc": "Complete your first session",
+  "badgeStreak3": "On a roll",
+  "badgeStreak3Desc": "Reach a 3-day streak",
+  "badgeStreak7": "Unstoppable",
+  "badgeStreak7Desc": "Reach a 7-day streak",
+  "badgeSessions10": "Desk athlete",
+  "badgeSessions10Desc": "Complete 10 sessions",
+  "badgeMinutes60": "Hour of power",
+  "badgeMinutes60Desc": "Move for 60 minutes in total",
+  "badgeWater": "Hydration hero",
+  "badgeWaterDesc": "Drink 8 glasses in one day",
+  "emptyProgress": "Finish your first routine to start your streak.",
+  "settingsTitle": "Settings",
+  "languageLabel": "Language",
+  "languageSystem": "Device language",
+  "dailyGoalLabel": "Daily movement goal",
+  "breakReminderLabel": "Break interval",
+  "breakReminderDesc": "Used by the sitting timer on the Today screen.",
+  "waterGoalSetting": "Water goal",
+  "resetProgress": "Reset progress",
+  "resetConfirmTitle": "Reset all progress?",
+  "resetConfirmBody": "Streaks, minutes and water logs will be deleted.",
+  "cancel": "Cancel",
+  "resetAction": "Reset",
+  "aboutTitle": "About",
+  "aboutBody": "Desk Workout helps desk workers move, stretch and rest their eyes with short, guided routines. All illustrations and animations are drawn in code.",
+  "disclaimerTitle": "Health disclaimer",
+  "disclaimerBody": "This app provides general wellness information and is not medical advice. Consult a professional if you have an injury, pain or a medical condition.",
+  "sourcesTitle": "Sources",
+  "sourcesBody": "Mayo Clinic, Harvard Health, Cleveland Clinic, NHS, HSS, OSHA, American Academy of Ophthalmology, WHO, EFSA, FDA.",
+  "versionLabel": "Version {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "saved": "Saved",
+  "catNeck": "Neck",
+  "catNeckDesc": "Release screen neck",
+  "catShoulders": "Shoulders",
+  "catShouldersDesc": "Open rounded shoulders",
+  "catWrists": "Wrists & hands",
+  "catWristsDesc": "For typing and mouse work",
+  "catBack": "Back & spine",
+  "catBackDesc": "Mobilise a stiff back",
+  "catLegs": "Hips & legs",
+  "catLegsDesc": "Wake up your circulation",
+  "catEyes": "Eyes",
+  "catEyesDesc": "Beat digital eye strain",
+  "catBreathing": "Breathing",
+  "catBreathingDesc": "Calm and refocus",
+  "rtQuickName": "2-Minute Reset",
+  "rtQuickDesc": "The perfect micro-break between meetings.",
+  "rtNeckName": "Neck & Shoulder Relief",
+  "rtNeckDesc": "Melt away tension from hours of screen time.",
+  "rtWristName": "Wrist & Hand Care",
+  "rtWristDesc": "Protect hands that type and click all day.",
+  "rtBackName": "Lower Back Rescue",
+  "rtBackDesc": "Decompress the spine and loosen tight hips.",
+  "rtEyeName": "Eye Recharge",
+  "rtEyeDesc": "Refresh tired, dry screen eyes.",
+  "rtEnergyName": "Energy Boost",
+  "rtEnergyDesc": "Get your heart rate up and beat the slump.",
+  "rtPostureName": "Posture Fix",
+  "rtPostureDesc": "Undo the hunch and stand taller.",
+  "rtCalmName": "Calm Down",
+  "rtCalmDesc": "Breathing and stretching to reset stress.",
+  "rtFullName": "Full Desk Workout",
+  "rtFullDesc": "A complete head-to-toe session for your lunch break.",
+  "doseReps": "{count} reps",
+  "@doseReps": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "doseRepsEachSide": "{count} reps each side",
+  "@doseRepsEachSide": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "doseHold": "Hold {count} s",
+  "@doseHold": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "doseHoldEachSide": "Hold {count} s each side",
+  "@doseHoldEachSide": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "doseBreaths": "{count} slow breaths",
+  "@doseBreaths": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "doseSeconds": "{count} seconds",
+  "@doseSeconds": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "doseRounds": "{count} rounds",
+  "@doseRounds": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "tip1": "Break up sitting every 30 minutes – even a short walk helps your blood sugar and blood pressure.",
+  "tip2": "WHO recommends 150–300 minutes of moderate activity per week for adults.",
+  "tip3": "Change your position about every 15 minutes, even just shifting how you sit.",
+  "tip4": "Place the top of your monitor at or slightly below eye level.",
+  "tip5": "Take phone calls standing up – it’s free movement.",
+  "tip6": "Keep a water bottle on your desk; every refill is a mini break.",
+  "tip7": "Use the stairs and walk to a colleague instead of messaging.",
+  "tip8": "Keep wrists straight while typing and let your elbows rest close to your body.",
+  "exChinTuckName": "Chin Tuck",
+  "exChinTuckSummary": "Undo “screen neck” by gliding your head straight back.",
+  "exChinTuckSteps": "Sit tall with your feet flat and shoulders relaxed.\nKeep your eyes level and glide your chin and head straight back, making a gentle double chin.\nHold for 5 seconds, feeling a stretch at the base of the skull.\nRelease slowly and repeat.",
+  "exChinTuckTip": "It is a small movement: don’t nod up or down.",
+  "exNeckSideTiltName": "Neck Side Tilt",
+  "exNeckSideTiltSummary": "Ease tension on the sides of the neck.",
+  "exNeckSideTiltSteps": "Sit tall and let your shoulders drop away from your ears.\nSlowly tilt one ear toward the same-side shoulder, face looking forward.\nHold 15–30 seconds while breathing calmly.\nReturn to centre and repeat on the other side.",
+  "exNeckSideTiltTip": "Don’t lift the shoulder to meet the ear and never bounce.",
+  "exNeckRotationName": "Neck Rotation",
+  "exNeckRotationSummary": "Restore the ability to look over your shoulder.",
+  "exNeckRotationSteps": "Sit upright with shoulders down and look straight ahead.\nSlowly turn your head toward one shoulder as far as is comfortable, chin level.\nHold for 5 seconds.\nReturn to centre and turn to the other side.",
+  "exNeckRotationTip": "Move slowly and keep your shoulders still.",
+  "exLevatorStretchName": "Levator Scapulae Stretch",
+  "exLevatorStretchSummary": "Target the stubborn knot between neck and shoulder blade.",
+  "exLevatorStretchSteps": "Hold the edge of the seat with the hand of the side you want to stretch.\nTurn your head about 45° away from that side.\nLook down toward the opposite armpit.\nRest the other hand on the back of your head for light support and hold.",
+  "exLevatorStretchTip": "Let the hand only rest on your head – don’t pull.",
+  "exUpperTrapStretchName": "Upper Trapezius Stretch",
+  "exUpperTrapStretchSummary": "Release the muscles that hold stress on your shoulders.",
+  "exUpperTrapStretchSteps": "Hold the seat with the hand of the side to stretch to keep that shoulder down.\nTilt your ear toward the opposite shoulder, face forward.\nPlace the opposite hand on top of your head for gentle overpressure.\nHold 10–30 seconds and switch sides.",
+  "exUpperTrapStretchTip": "Stop if you feel pain, tingling or numbness.",
+  "exShoulderShrugsName": "Shoulder Shrugs",
+  "exShoulderShrugsSummary": "Wake up tired upper shoulders in seconds.",
+  "exShoulderShrugsSteps": "Sit tall with your arms hanging relaxed.\nLift both shoulders straight up toward your ears.\nPause for 1–2 seconds at the top.\nLet them drop fully and relax.",
+  "exShoulderShrugsTip": "Lift straight up without rolling and keep your neck long.",
+  "exShoulderRollsName": "Shoulder Rolls",
+  "exShoulderRollsSummary": "Big, slow circles that loosen the whole shoulder girdle.",
+  "exShoulderRollsSteps": "Sit tall with your arms relaxed.\nDraw large circles with your shoulders: up, back, down and forward.\nMake each circle slow and smooth.\nAfter half the reps, reverse the direction.",
+  "exShoulderRollsTip": "Keep your head still and let only the shoulders move.",
+  "exScapularSqueezeName": "Shoulder Blade Squeeze",
+  "exScapularSqueezeSummary": "Counter rounded shoulders and activate your upper back.",
+  "exScapularSqueezeSteps": "Sit upright, away from the backrest, elbows bent at your sides.\nDraw your shoulder blades back and together, slightly down.\nHold for 3–5 seconds with your chest open.\nRelease slowly.",
+  "exScapularSqueezeTip": "Don’t shrug or arch your lower back.",
+  "exCrossBodyStretchName": "Cross-Body Shoulder Stretch",
+  "exCrossBodyStretchSummary": "Stretch the back of the shoulder after long mouse work.",
+  "exCrossBodyStretchSteps": "Sit straight with your shoulders down.\nBring one straight arm across your chest at shoulder height.\nCup the elbow with your other hand and gently pull it toward you.\nHold 10–30 seconds and switch arms.",
+  "exCrossBodyStretchTip": "Keep your torso facing forward – don’t rotate with the arm.",
+  "exTricepsStretchName": "Overhead Triceps Stretch",
+  "exTricepsStretchSummary": "Open the back of the arm and the side of the chest.",
+  "exTricepsStretchSteps": "Raise one arm and bend the elbow so the hand drops behind your head.\nPoint the elbow to the ceiling, palm toward your upper back.\nWith the other hand, gently press the elbow back.\nHold about 20 seconds per arm.",
+  "exTricepsStretchTip": "Keep your head upright; don’t push it forward.",
+  "exChestOpenerName": "Seated Chest Opener",
+  "exChestOpenerSummary": "Reverse the hunch: open the chest and front shoulders.",
+  "exChestOpenerSteps": "Sit near the front of the seat and roll your shoulders down and back.\nInterlace your fingers behind you, palms facing your body.\nStraighten your arms and lift your hands gently until you feel a stretch.\nHold 10–30 seconds while breathing deeply.",
+  "exChestOpenerTip": "Can’t clasp your hands? Hold your forearms or elbows instead.",
+  "exThoracicExtensionName": "Thoracic Extension",
+  "exThoracicExtensionSummary": "Bend the stiff upper back the other way over your backrest.",
+  "exThoracicExtensionSteps": "Sit with feet flat and your mid-back against the top of the backrest.\nSupport your neck with your hands, elbows forward.\nLean back over the backrest, lifting your chest and looking up.\nHold 3–5 seconds and come back up slowly.",
+  "exThoracicExtensionTip": "Move from the upper back, not the neck. Use a stable chair.",
+  "exOverheadSideBendName": "Overhead Side Bend",
+  "exOverheadSideBendSummary": "Lengthen the sides of your trunk and breathe deeper.",
+  "exOverheadSideBendSteps": "Sit tall with both hips grounded on the seat.\nRaise your arms overhead and clasp your hands.\nBend slowly to one side from the waist.\nReturn to centre and bend to the other side.",
+  "exOverheadSideBendTip": "Stay in one plane: don’t lean forward and keep both hips on the chair.",
+  "exSpinalTwistName": "Seated Spinal Twist",
+  "exSpinalTwistSummary": "Mobilise the spine and relieve a stiff back.",
+  "exSpinalTwistSteps": "Sit upright, feet flat, arms crossed over your chest.\nKeep hips and knees facing forward.\nTurn your upper body to one side and hold for 5 seconds.\nReturn to centre and turn the other way.",
+  "exSpinalTwistTip": "Grow tall before you twist and never force the end range.",
+  "exCatCowName": "Seated Cat-Cow",
+  "exCatCowSummary": "A flowing spine wave synced with your breath.",
+  "exCatCowSteps": "Sit tall, feet flat, hands on your thighs.\nInhale (cow): arch your back, lift your chest and draw your shoulder blades together.\nExhale (cat): round your back, tuck your pelvis and bring your chin toward your chest.\nFlow slowly between the two.",
+  "exCatCowTip": "Don’t jut your chin forward or drop your head back.",
+  "exForwardFoldName": "Seated Forward Fold",
+  "exForwardFoldSummary": "Let your back decompress and your mind slow down.",
+  "exForwardFoldSteps": "Sit tall with your feet flat and apart.\nExhale and fold forward, resting your forearms on your thighs.\nLet your head, neck and spine form one long line.\nBreathe slowly, then roll up gradually.",
+  "exForwardFoldTip": "Come up slowly – you may feel light-headed.",
+  "exWristFlexorStretchName": "Wrist Flexor Stretch",
+  "exWristFlexorStretchSummary": "Relieve forearms that type and click all day.",
+  "exWristFlexorStretchSteps": "Extend one arm straight in front, palm facing up.\nWith the other hand, gently pull the fingers down toward the floor.\nKeep the elbow straight and hold 15–30 seconds.\nSwitch hands.",
+  "exWristFlexorStretchTip": "Pull gently – you should feel a stretch, never pain.",
+  "exWristExtensorStretchName": "Wrist Extensor Stretch",
+  "exWristExtensorStretchSummary": "Stretch the top of the forearm, a classic mouse-arm fix.",
+  "exWristExtensorStretchSteps": "Extend one arm straight in front, palm facing down.\nBend the wrist so the fingers point to the floor.\nWith the other hand, gently press the back of the hand toward you.\nHold 15–30 seconds and switch.",
+  "exWristExtensorStretchTip": "Keep the elbow straight to feel it along the forearm.",
+  "exWristCirclesName": "Wrist Circles",
+  "exWristCirclesSummary": "Warm up stiff wrists before and after typing.",
+  "exWristCirclesSteps": "Extend both arms in front and make loose fists.\nKeep your forearms still.\nSlowly circle your wrists outward.\nAfter half the reps, circle inward.",
+  "exWristCirclesTip": "Only the hands move – keep the movement smooth.",
+  "exPrayerStretchName": "Prayer Stretch",
+  "exPrayerStretchSummary": "A gentle stretch for the palms and inner forearms.",
+  "exPrayerStretchSteps": "Press your palms together in front of your chest, fingers up.\nKeep the palms together and slowly lower your hands toward your waist.\nLet your elbows spread out to the sides.\nHold 15–30 seconds with a mild stretch.",
+  "exPrayerStretchTip": "Aim for mild tension, never pain.",
+  "exFigureFourName": "Seated Figure-4 Stretch",
+  "exFigureFourSummary": "Release tight hips and glutes from long sitting.",
+  "exFigureFourSteps": "Sit tall near the front edge, both feet flat.\nPlace one ankle on the opposite knee.\nKeep your back flat and hinge slightly forward until you feel the outer hip.\nHold 30–45 seconds and switch legs.",
+  "exFigureFourTip": "If your knee complains, just hold the crossed position without leaning.",
+  "exLegExtensionName": "Seated Leg Extension",
+  "exLegExtensionSummary": "Fire up your thighs without leaving the chair.",
+  "exLegExtensionSteps": "Sit tall with your thighs parallel to the floor.\nSlowly straighten one knee, toes pulled toward you.\nPause at the top, then lower with control.\nComplete the reps and switch legs.",
+  "exLegExtensionTip": "Don’t lock the knee at the top.",
+  "exHamstringStretchName": "Seated Hamstring Stretch",
+  "exHamstringStretchSummary": "Lengthen the back of the thighs that shorten when sitting.",
+  "exHamstringStretchSteps": "Sit at the front edge of the chair.\nStraighten one leg with the heel on the floor and toes up.\nKeep your back straight and hinge forward from the hips.\nHold 30–45 seconds and switch legs.",
+  "exHamstringStretchTip": "Hinge from the hips – don’t round your back.",
+  "exAnklePumpsName": "Ankle Pumps",
+  "exAnklePumpsSummary": "Help your calves pump blood back up your legs.",
+  "exAnklePumpsSteps": "Sit tall and lift one foot slightly off the floor.\nPoint your toes away from you.\nThen pull your toes back toward you.\nRepeat smoothly and switch feet.",
+  "exAnklePumpsTip": "Only the foot moves – keep the shin still.",
+  "exSeatedMarchingName": "Seated Marching",
+  "exSeatedMarchingSummary": "A quick cardio boost to beat the afternoon slump.",
+  "exSeatedMarchingSteps": "Sit upright without leaning on the backrest.\nHold the sides of the chair.\nLift one bent knee as high as is comfortable, then lower it with control.\nAlternate legs at a steady rhythm.",
+  "exSeatedMarchingTip": "Don’t lean back as you lift.",
+  "exCalfRaisesName": "Standing Calf Raises",
+  "exCalfRaisesSummary": "Strengthen calves and boost circulation.",
+  "exCalfRaisesSteps": "Stand facing your desk and rest your hands lightly on it.\nRise slowly onto the balls of your feet.\nPause briefly at the top.\nLower your heels with control.",
+  "exCalfRaisesTip": "For more challenge, do it without hand support.",
+  "exHipFlexorStretchName": "Standing Hip Flexor Stretch",
+  "exHipFlexorStretchSummary": "Open the front of the hips that tighten from sitting.",
+  "exHipFlexorStretchSteps": "Stand in a split stance, the leg to stretch a stride behind.\nSlightly bend the front knee and keep your back straight.\nTuck your tailbone under and gently push the back hip forward.\nHold 20–30 seconds and switch sides.",
+  "exHipFlexorStretchTip": "Hold your desk for balance and don’t arch your lower back.",
+  "exChairSquatName": "Chair Sit-to-Stand",
+  "exChairSquatSummary": "The most practical leg exercise for desk workers.",
+  "exChairSquatSteps": "Sit at the edge of a stable chair, feet hip-width apart.\nCross your arms over your chest and lean slightly forward.\nStand up using your legs, looking forward.\nSit back down slowly and with control.",
+  "exChairSquatTip": "Use a chair without wheels or lock it against a wall.",
+  "exDeskPushUpName": "Desk Push-Up",
+  "exDeskPushUpSummary": "Strengthen chest, shoulders and arms using your desk.",
+  "exDeskPushUpSteps": "Place your hands shoulder-width apart on the edge of a stable desk.\nWalk your feet back until your body forms a straight line.\nBend your elbows and lower your chest toward the desk.\nPress back up to straight arms.",
+  "exDeskPushUpTip": "Keep your core tight and make sure the desk can’t slide.",
+  "exRule202020Name": "20-20-20 Eye Break",
+  "exRule202020Summary": "The ophthalmologists’ rule for tired screen eyes.",
+  "exRule202020Steps": "Every 20 minutes, look away from your screen.\nFocus on something about 6 metres (20 feet) away.\nKeep looking for at least 20 seconds.\nBlink fully a few times before returning to work.",
+  "exRule202020Tip": "A window view is perfect – distant focus relaxes the eye muscles.",
+  "exNearFarFocusName": "Near–Far Focus",
+  "exNearFarFocusSummary": "Train your eyes to switch focus smoothly.",
+  "exNearFarFocusSteps": "Hold your thumb about 25 cm in front of your face.\nFocus on it for a few seconds.\nThen shift your focus to an object far away.\nKeep switching slowly between near and far.",
+  "exNearFarFocusTip": "Keep your head still and breathe normally.",
+  "exEyeMovementsName": "Eye Movements",
+  "exEyeMovementsSummary": "A gentle comfort routine for stiff, tired eyes.",
+  "exEyeMovementsSteps": "Sit comfortably and keep your head still.\nSlowly look up, then down.\nSlowly look left, then right.\nClose your eyes and relax for a moment.",
+  "exEyeMovementsTip": "This is a comfort routine, not a treatment. Stop if it causes discomfort.",
+  "exPalmingName": "Palming",
+  "exPalmingSummary": "Warm darkness to rest the eyes completely.",
+  "exPalmingSteps": "Rub your hands together to warm them.\nClose your eyes.\nCup your palms gently over your eyes without pressing.\nBreathe slowly for 20–30 seconds.",
+  "exPalmingTip": "No pressure on the eyeballs – the palms only rest on the cheekbones.",
+  "exBlinkingName": "Conscious Blinking",
+  "exBlinkingSummary": "Restore the tear film that screens dry out.",
+  "exBlinkingSteps": "Close your eyes gently for 2 seconds.\nOpen them.\nClose again for 2 seconds.\nThen squeeze gently for 2 seconds and open.",
+  "exBlinkingTip": "At screens we blink about half as often – repeat this every 20 minutes.",
+  "exBoxBreathingName": "Box Breathing",
+  "exBoxBreathingSummary": "Four equal sides to calm a busy mind.",
+  "exBoxBreathingSteps": "Exhale completely.\nBreathe in through your nose for 4 seconds.\nHold for 4 seconds.\nBreathe out for 4 seconds, then hold for 4 seconds.",
+  "exBoxBreathingTip": "Shorten the counts if you feel any strain.",
+  "exBellyBreathingName": "Belly Breathing",
+  "exBellyBreathingSummary": "Diaphragmatic breathing to release shoulder tension.",
+  "exBellyBreathingSteps": "Sit with your shoulders relaxed.\nPlace one hand on your chest and one just below your ribs.\nBreathe in through your nose so the belly pushes your lower hand out.\nBreathe out slowly through pursed lips.",
+  "exBellyBreathingTip": "Only the lower hand should move; the chest stays quiet."
+}

@@ -1,4 +1,4 @@
-package com.example.deskworkout
+package com.burakkolik.deskworkout
 
 import io.flutter.embedding.android.FlutterActivity
 

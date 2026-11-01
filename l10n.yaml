@@ -1,0 +1,9 @@
+# Localization config.
+# To add a new language, just drop a new `app_<code>.arb` file into lib/l10n/arb
+# (copy app_en.arb and translate the values). Nothing else needs to change.
+arb-dir: lib/l10n/arb
+template-arb-file: app_en.arb
+output-dir: lib/l10n/generated
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+nullable-getter: false

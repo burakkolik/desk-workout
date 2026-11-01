@@ -1,7 +1,7 @@
 name: deskworkout
-description: "A new Flutter project."
+description: "Desk Workout - posture, stretching, eye care and nutrition for desk workers."
 publish_to: 'none'
-version: 0.1.0+1
+version: 1.0.0+1
 
 environment:
   sdk: ^3.11.1
@@ -9,6 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  shared_preferences: ^2.3.0
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +21,4 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  generate: true
